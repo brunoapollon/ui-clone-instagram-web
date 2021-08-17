@@ -1,6 +1,7 @@
 import React from "react";
 
 import Header from "../../components/Header";
+import Stories from "../../components/Stories";
 
 import { Container, Content } from "./styles";
 
@@ -9,7 +10,7 @@ function Home() {
     <Container>
       <Header />
       <Content>
-        <h1>Container</h1>
+        <Stories />
       </Content>
     </Container>
   );

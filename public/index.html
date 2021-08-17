@@ -9,9 +9,28 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dragscroll/0.0.8/dragscroll.min.js"></script>
     <title>UI clone instagram</title>
   </head>
   <body>
     <div id="root"></div>
   </body>
 </html>
+<script>
+  const scrollButton = document.querySelector("#arrow-right");
+  const listStories = document.querySelector("#lista");
+  scrollButton.addEventListener("click", () => {
+    sideScroll(listStories, "right", 10, 250, 10);
+  });
+
+  function sideScroll(element, direction, speed, distance, step) {
+    scrollAmount = 0;
+    var slideTimer = setInterval(function () {
+      element.scrollLeft += step;
+      scrollAmount += step;
+      if (scrollAmount >= distance) {
+        window.clearInterval(slideTimer);
+      }
+    }, speed);
+  }
+</script>
