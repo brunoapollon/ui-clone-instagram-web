@@ -9,6 +9,7 @@ export const Container = styled.div`
   background: #ffffff;
   box-sizing: border-box;
   align-items: center;
+  margin-bottom: 20px;
   &::-webkit-scrollbar {
     display: none;
   }
