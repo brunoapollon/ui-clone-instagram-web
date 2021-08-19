@@ -2,17 +2,19 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 215px;
-  height: 25px;
+  height: 28px;
+  padding: 7px;
   background-color: #fafafa;
   border: 1px solid #dbdbdb;
   border-radius: 3px;
+  box-sizing: border-box;
 `;
 export const Content = styled.div`
   width: 100%;
   height: 100%;
   display: flex;
   font-family: "Roboto";
-  font-size: 12px;
+  font-size: 8px;
   justify-content: center;
   align-items: center;
   .search-selected {

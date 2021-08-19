@@ -4,7 +4,8 @@ export const Container = styled.div`
   width: 100%;
   background-color: #ffffff;
   border: 1px solid #dbdbdb;
-  margin-bottom: 20px;
+  border-radius: 5px;
+  box-sizing: border-box;
   > header {
     border-bottom: 1px solid #dbdbdb;
     display: flex;
@@ -155,5 +156,8 @@ export const Container = styled.div`
         }
       }
     }
+  }
+  & + div {
+    margin-top: 20px;
   }
 `;

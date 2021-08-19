@@ -4,15 +4,16 @@ export const Container = styled.header`
   background-color: #fff;
   border-bottom: 1px solid #dbdbdb;
   margin-bottom: 20px;
-  height: 50px;
+  height: 55px;
   padding: 10px;
   box-sizing: border-box;
 `;
 export const Content = styled.div`
-  max-width: 920px;
+  max-width: 935px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  padding: 5px 0;
   .logo-header {
     width: 100px;
     height: 30px;
@@ -22,8 +23,10 @@ export const Content = styled.div`
     border-radius: 25px;
   }
   .icons {
-    width: 180px;
+    width: 198px;
+    height: 22px;
     display: flex;
+    padding-left: 24px;
     justify-content: space-between;
     align-items: center;
     > a {
@@ -42,6 +45,7 @@ export const Content = styled.div`
     padding: 0;
     border: none;
     cursor: text;
+    font-size: 12px;
     > svg {
       margin-right: 5px;
     }

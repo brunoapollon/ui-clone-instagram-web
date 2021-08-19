@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 610px;
+  width: 100%;
   height: 118px;
   display: flex;
   overflow: auto;
-  padding: 16px 0 10px;
+  padding: 16px 0;
   background: #ffffff;
   box-sizing: border-box;
   align-items: center;
@@ -14,6 +14,7 @@ export const Container = styled.div`
     display: none;
   }
   border: 1px solid #dbdbdb;
+  border-radius: 5px;
   #arrow-right {
     position: sticky;
     right: 15px;

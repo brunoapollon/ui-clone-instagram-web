@@ -1,12 +1,7 @@
 import React, { useState, useCallback } from "react";
 
-import {
-  AiFillHome,
-  AiOutlineCompass,
-  AiOutlineHeart,
-  AiFillCloseCircle,
-} from "react-icons/ai";
-import { BiMessageRounded, BiSearch } from "react-icons/bi";
+import { AiFillCloseCircle } from "react-icons/ai";
+import { BiSearch } from "react-icons/bi";
 
 import logoHeader from "../../assets/Logo-header.png";
 import profile from "../../assets/profile.jfif";
