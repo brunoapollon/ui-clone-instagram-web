@@ -8,6 +8,9 @@ export const Container = styled.div`
   border: 1px solid #dbdbdb;
   border-radius: 3px;
   box-sizing: border-box;
+  @media (max-width: 599px) {
+    display: none;
+  }
 `;
 export const Content = styled.div`
   width: 100%;

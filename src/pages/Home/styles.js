@@ -3,15 +3,31 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 100%;
   align-items: center;
+  > svg {
+    cursor: pointer;
+  }
 `;
 
 export const Content = styled.div`
   margin: 0 auto;
   max-width: 935px;
   display: flex;
+  @media (max-width: 999px) {
+    justify-content: center;
+    max-width: 100%;
+  }
   .container-1 {
     width: calc(100% - 293px);
+    @media (max-width: 999px) {
+      width: 600px;
+    }
+    @media (max-width: 600px) {
+      width: 100%;
+    }
     margin-right: 28px;
+    @media (max-width: 999px) {
+      margin: 0;
+    }
     .stories {
       margin-bottom: 50px;
     }
@@ -19,6 +35,9 @@ export const Content = styled.div`
   .container-2 {
     width: 293px;
     padding-top: 35px;
+    @media (max-width: 999px) {
+      display: none;
+    }
     .info-account {
       display: flex;
       width: 100%;

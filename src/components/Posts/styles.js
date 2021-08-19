@@ -81,6 +81,14 @@ export const Container = styled.div`
         border-radius: 50%;
         margin-right: 10px;
       }
+      @media (max-width: 600px) {
+        > img {
+          margin-right: 0;
+        }
+        > span {
+          padding: 0;
+        }
+      }
     }
   }
   .description-image {
@@ -159,5 +167,9 @@ export const Container = styled.div`
   }
   & + div {
     margin-top: 20px;
+  }
+  @media (max-width: 600px) {
+    border-left: none;
+    border-right: none;
   }
 `;
