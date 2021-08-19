@@ -21,9 +21,7 @@ export const Content = styled.div`
     @media (max-width: 999px) {
       width: 600px;
     }
-    @media (max-width: 600px) {
-      width: 100%;
-    }
+
     margin-right: 28px;
     @media (max-width: 999px) {
       margin: 0;
