@@ -32,3 +32,4 @@ Esse projeto é apenas uma aplicação de conhecimentos adquiridos em meus estud
 ---
 
 Projeto feito apenas para teste de conhecimento 💻💖🚀
+Todos direitos reservados ao NSTAGRAM DO FACEBOOK
